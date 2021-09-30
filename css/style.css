@@ -73,7 +73,6 @@ header input{
 
 .perfil h2 {
     font-size: 14px;
-    text-align: justify;
     margin-bottom: 130px;
 }
 
@@ -86,6 +85,12 @@ header input{
 .icons-sociais {
     display: flex;
 }
+
+.icons-sociais svg:hover {
+    background-color: #BBBBBB;
+    border-radius: 8px;
+}
+
 
 .icons-sociais svg {
     margin-right: 20px;
@@ -168,7 +173,7 @@ header input{
 }
 
 .card-experiencia img{
-    width: 200px;
+    width: 180px;
     border-radius: 8px;
     margin-right: 40px;
 }
@@ -180,18 +185,21 @@ header input{
 
 .card-text h2 {
     font-size: 14px;
-    text-align: justify;
     margin-bottom: 15px;
 }
 
 .card-text h3 {
     font-size: 16px;
-    text-align: justify;
     margin-bottom: 15px;
 }
 
 .repostitórios {
     background-color: #BBBBBB;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
 }
 
 .repostitórios ul {
@@ -199,13 +207,12 @@ header input{
     margin: 0 auto;
     list-style: none;
     width:70%;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .repostitórios li {
-    width: 500px;
+    width: 330px;
 }
-
 
 .repositorios-header {
     display: flex;
@@ -216,10 +223,8 @@ header input{
 
 .card-repositorios {
     display: flex;
-    width:70%;
     padding-right: 20px;
     align-items: flex-start;
-    flex-direction: row;
 }
 
 .svg-border {
@@ -246,4 +251,57 @@ header input{
 .repo-text h4 {
     font-size: 16px;  
     margin-bottom: 15px;
+}
+
+.conteudo-header {
+    display: flex;
+    width:70%;
+    padding-top: 30px;
+    margin: 40px auto;
+}
+
+.card-conteudo {
+    display: flex;
+    padding-right: 20px;
+    align-items: flex-start;
+}
+
+.card-conteudo ul {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    width:70%;
+    justify-content: space-between;
+}
+
+.card-conteudo li {
+    display: flex;
+    flex-direction:column;
+    width: 280px;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.card-conteudo iframe {
+    width: 280px;
+    height: 180px;
+    margin-right: 50px;
+}
+
+.card-conteudo p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #BBBBBB;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
 }
