@@ -305,3 +305,119 @@ footer img {
     height: 100px;
     padding: 15px;
 }
+
+@media (max-width: 600px) {
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    header{
+        flex-direction: column;
+    }
+    h1 {
+        text-align: center;
+    }
+    .adicionar-projeto {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+    }
+    .container {
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    .perfil {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items:center;
+        margin-bottom: 1rem;
+    }
+    .icon-img img {
+        margin-right: 0px;
+        margin-bottom: 1rem;
+    }
+    .texto h2 {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .texto h3 {
+        text-align: center;
+    }
+    .icons-sociais {
+        justify-content: center;
+        align-items: center;
+    }
+    .projetos {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+    .projetos-header{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+    }
+    .projetos-header h1{
+        margin-bottom: 1rem;
+    }
+    .card-projetos ul {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-bottom: 2rem;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+    }
+    .card-projetos li{
+        margin-bottom: 2rem;
+    }
+    .card-projetos img {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .experiencia-header{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+    }
+    .card-experiencia {
+        flex-direction: column;
+        text-align: center;
+    }
+    .card-experiencia img{
+        margin-right: 0px;
+        margin-bottom: 1rem;
+    }
+    .experiencia li{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+    .repostitórios ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+    .conteudo ul{
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        align-items:center;
+        text-align: center;
+        justify-content: center;
+    }
+}
